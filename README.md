@@ -1,4 +1,4 @@
-# WeatherNow - Seu Companheiro Meteorológico 🌤️
+# WeatherPulse - Seu Companheiro Meteorológico 🌤️
 
 ## Sobre o Projeto
 

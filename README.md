@@ -2,7 +2,7 @@
 
 ## Sobre o Projeto
 
-O **WeatherNow** é uma aplicação web simples e elegante que traz as informações meteorológicas na palma da sua mão. Desenvolvido com paixão por quem entende que o clima faz toda a diferença no nosso dia a dia.
+O **WeatherPulse** é uma aplicação web simples e elegante que traz as informações meteorológicas na palma da sua mão. Desenvolvido com paixão por quem entende que o clima faz toda a diferença no nosso dia a dia.
 
 ## ⚡ Funcionalidades
 

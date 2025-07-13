@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/weatherpulse.png" type="png">
+    <title>WeatherPulse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+          type="search"
+          placeholder="Type for a city..."
+          spellcheck="false"
+        />
+        <button><img src="./assets/search.png" alt="" /></button>
+      </div>
+      <div class="weather">
+        <img src="./assets/clouds.png" class="weather-status" />
+        <h1 class="temp">°C</h1>
+        <h2 class="city">--</h2>
+        <div class="details">
+
+          <div class="column">
+            <img src="./assets/humidity.png"/>
+            <div>
+              <p class="humidity">%</p>
+              <p>Humidty</p>
+            </div>
+          </div>
+        <div class="column">
+          <img src="./assets/wind.png"/>
+          <div>
+            <p class="wind">km/h</p>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="api.js"></script>
+  </body>
+</html>

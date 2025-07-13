@@ -1,0 +1,116 @@
+:root {
+   --body-background: #222;
+   --main-gradient: linear-gradient(115deg, #00feba, #5b3a);
+   --white: #fff;
+   --bar-bg: #ebfffc;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Nunito", "Sans-serif";
+}
+body {
+   background: var(--body-background);
+}
+.card {
+   width: 90%;
+   max-width: 500px;
+   max-height: 560px;
+   background: var(--main-gradient);
+   color: #fff;
+   margin: 20px auto;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+}
+.search {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.search input {
+   outline: none;
+   border: 0;
+   background: var(--bar-bg);
+   color: #555;
+   padding: 10px 25px;
+   height: 60px;
+   border-radius: 30px;
+   flex: 1;
+   margin-right: 16px;
+   font: 18px;
+}
+.search input.invalid{
+   outline: 1px solid #ff3333;
+   animation: bounce-error 0.5s ease-in-out;
+}
+.search button {
+   border: none;
+   outline: none;
+   background: var(--bar-bg);
+   padding: 5px 10px;
+   border-radius: 50%;
+   height: 60px;
+   cursor: pointer;
+   min-width: 60px;
+}
+.search button img {
+   width: 20px;
+}
+.weather-status {
+   width: 170px;
+   margin-top: 30px
+}
+.weather h1 {
+   font-size: 60px;
+   font-weight: 500;
+}
+.weather h2 {
+   font-size: 35px;
+   font-weight: 500;
+   margin-top: -5px;
+}
+.details {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 0 10px;
+   margin-top: 45px;
+}
+.column {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.column img {
+   width: 40px;
+}
+.humidity, .wind {
+   font-size: 1.9rem;
+}
+@keyframes bounce-error {
+   0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+   }
+   10% {
+      transform: translateY(-10px);
+   }
+   30% {
+      transform: translateY(10px);
+   }
+   40% {
+      transform: translateY(-8px);
+   }
+   60% {
+      transform: translateY(8px);
+   }
+   70% {
+      transform: translateY(-5px);
+   }
+   90% {
+      transform: translateY(5px);
+   }
+}

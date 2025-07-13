@@ -16,27 +16,22 @@ O **WeatherPulse** é uma aplicação web simples e elegante que traz as informa
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**
-- **CSS3** 
+- **CSS3**
 - **JavaScript ES6+**
 - **OpenWeatherMap API**
-  
+
 ## 🚀 Como Usar
 
 1. Clone o repositório:
-``
-git clone https://github.com/seu-usuario/weather-now.git
-``
-
+   ``git clone https://github.com/seu-usuario/weather-now.git``
 2. Abra o arquivo `index.html` no seu navegador
-
 3. Digite o nome de uma cidade e clique em buscar
-
 4. Aproveite as informações meteorológicas em tempo real!
 
 ## 📁 Estrutura do Projeto
 
 ```
-weather-now/
+WeatherPulse/
 ├── index.html          # Página principal
 ├── style.css           # Estilos e animações
 ├── api.js              # Lógica da aplicação
